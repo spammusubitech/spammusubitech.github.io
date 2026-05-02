@@ -2,6 +2,9 @@
 layout: default
 title: Legal
 permalink: /
+app_name: Spam Musubi Technologies
+app_base: /
+hide_legal_nav: true
 ---
 
 <section class="intro">
@@ -10,6 +13,6 @@ permalink: /
 
   <ul class="link-list">
     <li><a href="/noodle-posture/">Wet Noodle legal documents</a></li>
+    <li><a href="/ai-notes-workout/">Workout legal documents</a></li>
   </ul>
 </section>
-
