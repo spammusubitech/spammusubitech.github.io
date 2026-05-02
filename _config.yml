@@ -1,0 +1,9 @@
+title: Wet Noodle Legal
+description: Legal documents for Wet Noodle by Spam Musubi Technologies LLC.
+url: https://spammusubitech.github.io
+baseurl: ""
+markdown: kramdown
+
+exclude:
+  - README.md
+
