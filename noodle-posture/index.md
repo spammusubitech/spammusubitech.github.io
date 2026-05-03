@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Legal
+app_name: Wet Noodle
+app_base: /noodle-posture/
+app_slug: noodle-posture
 permalink: /noodle-posture/
 ---
 
@@ -13,4 +16,3 @@ permalink: /noodle-posture/
     <li><a href="/noodle-posture/privacy/">Privacy Policy</a></li>
   </ul>
 </section>
-

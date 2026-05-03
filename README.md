@@ -1,4 +1,4 @@
-# Wet Noodle GitHub Pages Bundle
+# Spam Musubi Technologies GitHub Pages Bundle
 
 This folder is ready to publish in a public `spammusubitech.github.io` repository.
 
@@ -7,6 +7,12 @@ Expected public URLs:
 - `https://spammusubitech.github.io/noodle-posture/`
 - `https://spammusubitech.github.io/noodle-posture/terms/`
 - `https://spammusubitech.github.io/noodle-posture/privacy/`
+- `https://spammusubitech.github.io/ai-notes-workout/`
+- `https://spammusubitech.github.io/ai-notes-workout/terms/`
+- `https://spammusubitech.github.io/ai-notes-workout/privacy/`
+- `https://spammusubitech.github.io/prof-blob/`
+- `https://spammusubitech.github.io/prof-blob/terms/`
+- `https://spammusubitech.github.io/prof-blob/privacy/`
 
 ## One-time GitHub setup
 
@@ -15,4 +21,3 @@ Expected public URLs:
 3. In the repository settings, open **Pages** and publish from `main` using the repository root.
 
 If the repo is named exactly `spammusubitech.github.io`, GitHub Pages will serve it from `https://spammusubitech.github.io/`.
-

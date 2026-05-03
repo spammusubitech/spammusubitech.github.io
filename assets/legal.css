@@ -10,6 +10,17 @@
   --shadow: 0 18px 50px rgba(23, 33, 38, 0.08);
 }
 
+body.app-prof-blob {
+  --ink: #21152e;
+  --muted: #675878;
+  --paper: #fbf8ff;
+  --surface: #ffffff;
+  --line: #e6ddf7;
+  --lagoon: #7b4fe0;
+  --coral: #18a957;
+  --shadow: 0 18px 50px rgba(80, 48, 145, 0.11);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -108,9 +119,17 @@ nav a:hover {
   text-decoration: none;
 }
 
+body.app-prof-blob .link-list a {
+  background: #f7f2ff;
+}
+
 .link-list a:hover {
   border-color: rgba(15, 118, 110, 0.45);
   color: var(--lagoon);
+}
+
+body.app-prof-blob .link-list a:hover {
+  border-color: rgba(123, 79, 224, 0.45);
 }
 
 .legal-document h1 + p,
@@ -171,4 +190,3 @@ nav a:hover {
     padding: 24px 20px;
   }
 }
-

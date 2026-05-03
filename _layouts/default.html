@@ -1,6 +1,6 @@
 <!doctype html>
-{% assign app_name = page.app_name | default: "Wet Noodle" %}
-{% assign app_base = page.app_base | default: "/noodle-posture/" %}
+{% assign app_name = page.app_name | default: "Spam Musubi Technologies" %}
+{% assign app_base = page.app_base | default: "/" %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="{{ '/assets/legal.css' | relative_url }}">
   </head>
-  <body>
+  <body class="{% if page.app_slug %}app-{{ page.app_slug }}{% else %}site-home{% endif %}">
     <header class="site-header">
       <a class="brand" href="{{ app_base | relative_url }}">{{ app_name }}</a>
       {% unless page.hide_legal_nav %}
