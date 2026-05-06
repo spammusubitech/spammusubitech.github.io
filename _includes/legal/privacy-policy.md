@@ -1,10 +1,10 @@
-# Privacy Policy for Wet Noodle
+# Privacy Policy for Noodle
 
-Last updated: May 2, 2026
+Last updated: May 6, 2026
 
-This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Wet Noodle.
+This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Noodle. References to Noodle may include Noodle Posture, `noodle-posture`, or similar posture-related names used in older builds, app metadata, support materials, URLs, or internal project references.
 
-Wet Noodle is designed to keep posture motion processing on Your Device. The current iOS build does not save video, does not provide camera posture analysis, and does not send raw posture motion to Our servers for analysis.
+Noodle is designed to keep posture motion processing on Your Device. Raw posture motion is not sent to Our servers for analysis, while slouch scores, sessions, check-ins, and history may be stored or synced as described below.
 
 ## Interpretation and Definitions
 
@@ -16,7 +16,7 @@ Capitalized words have the meanings defined below. These definitions apply wheth
 
 For this Privacy Policy:
 
-- **Application** means Wet Noodle, the software program provided by the Company.
+- **Application** means Noodle, the software program provided by the Company. The Application may also be referred to as Noodle Posture, `noodle-posture`, or similar posture-related names in older builds, app metadata, support materials, URLs, or internal project references.
 - **Company** means Spam Musubi Technologies LLC, 3400 Cottage Way, Ste G2 #11929 Sacramento, California 95825. The Company may also be referred to as "We," "Us," or "Our."
 - **Country** refers to California, United States.
 - **Device** means any device that can access or run the Service, such as an iPhone, iPad, or other compatible device.
@@ -38,14 +38,14 @@ You may provide information when You use or contact Us about the Service, includ
 
 ### Posture, Motion, and Progress Information
 
-Wet Noodle may process information on Your Device to provide posture awareness features, including:
+Noodle may process information on Your Device to provide posture awareness features, including:
 
 - Headphone motion signals from motion-capable AirPods or compatible headphones made available through Apple's Core Motion APIs.
 - Calibration baseline, posture state, movement confidence, and related posture estimates.
 - Session start and end times, target duration, duration, check-in count, posture ratings, tension level, and progress summaries.
-- Reminder settings, sensitivity settings, nudge tone, mascot animation preferences, and similar app settings.
+- Reminder settings, sensitivity settings, visual preferences, and similar app settings.
 
-This information is used to run the Service on Your Device. We do not receive raw AirPods motion streams or continuous posture measurements on Our servers for analysis.
+Headphone motion signals are processed on Your Device to run live posture features. We do not receive raw AirPods motion streams or continuous posture measurements on Our servers for analysis. Slouch scores, sessions, check-ins, progress summaries, notes, reminders, and settings may be stored by the Application and may sync through iCloud as described below.
 
 ### Device Permissions
 
@@ -53,11 +53,11 @@ The Application may request permission to access motion data and notifications. 
 
 If notification permission is granted, the Application can schedule local reminders or posture nudges. Notification content and delivery are handled by Your Device and Apple notification services.
 
-### Camera, Microphone, and Location
+### Microphone and Location
 
-The current iOS build of Wet Noodle does not save video and does not provide camera posture analysis. The Service is not designed to collect microphone recordings or precise location data.
+The Service is not designed to collect microphone recordings or precise location data.
 
-If these features are added in the future, We will update this Privacy Policy as appropriate.
+If these practices change in the future, We will update this Privacy Policy as appropriate.
 
 ### Usage Data and Diagnostics
 
@@ -86,9 +86,9 @@ We use information for the following purposes:
 
 ## How Information Is Stored
 
-Posture sessions, check-ins, notes, progress, and settings are primarily stored on Your Device.
+Posture sessions, check-ins, notes, progress, and settings are stored by the Application on Your Device.
 
-Depending on Your Device settings, Apple account settings, backup settings, and Application configuration, some Application data may be included in iCloud backups or iCloud sync. We do not operate a separate cloud posture-analysis service.
+Depending on Your Device settings, Apple account settings, backup settings, and Application configuration, those records may be included in iCloud backups or iCloud sync. Raw headphone motion streams are not included in Noodle's iCloud history sync. We do not operate a separate cloud posture-analysis service.
 
 ## Sharing of Information
 
@@ -141,7 +141,7 @@ We take reasonable steps to handle information in accordance with this Privacy P
 
 Depending on where You live, You may have rights to request access to, correction of, deletion of, or information about Personal Data We process about You.
 
-Because much of Wet Noodle's posture and progress data is stored locally on Your Device, We may not have access to it. You can manage local data through the Application and Device controls.
+Because much of Noodle's posture and progress data is stored locally on Your Device, We may not have access to it. You can manage local data through the Application and Device controls.
 
 To exercise rights for information You have provided directly to Us, contact Us at the email address below.
 

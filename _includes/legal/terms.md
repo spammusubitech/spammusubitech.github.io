@@ -1,8 +1,8 @@
-# Terms and Conditions for Wet Noodle
+# Terms and Conditions for Noodle
 
-Last updated: May 2, 2026
+Last updated: May 6, 2026
 
-Please read these Terms and Conditions carefully before using Wet Noodle.
+Please read these Terms and Conditions carefully before using Noodle.
 
 ## Interpretation and Definitions
 
@@ -14,7 +14,7 @@ Capitalized words have the meanings defined below. These definitions apply wheth
 
 For these Terms and Conditions:
 
-- **Application** means the software program provided by the Company and downloaded by You on a Device, named Wet Noodle.
+- **Application** means the software program provided by the Company and downloaded by You on a Device, named Noodle. The Application may also be referred to as "Noodle Posture," "noodle-posture," or by similar posture-related names in older builds, app metadata, support materials, URLs, or internal project references.
 - **Application Store** means the Apple App Store or any other digital distribution service through which You downloaded the Application.
 - **Company** means Spam Musubi Technologies LLC, 3400 Cottage Way, Ste G2 #11929 Sacramento, California 95825. The Company may also be referred to as "We," "Us," or "Our."
 - **Country** refers to California, United States.
@@ -35,7 +35,7 @@ You must be at least 13 years old to use the Service. If You are under the age o
 
 ## The Service
 
-Wet Noodle is a posture awareness app. It may use motion-capable AirPods, Core Motion headphone motion data, local notifications, session timers, posture check-ins, progress summaries, and related settings to help You notice posture changes while You work.
+Noodle, including any reasonable references to Noodle Posture or related app aliases, is a posture awareness app. It may use motion-capable AirPods, Core Motion headphone motion data, local notifications, session timers, posture check-ins, progress summaries, and related settings to help You notice posture changes while You work.
 
 The Service is intended for general wellness, habit tracking, and productivity support. It is not medical advice, physical therapy, diagnosis, treatment, or a substitute for professional care. If You have pain, dizziness, injury, a medical condition, or concerns about posture, ergonomics, or movement, consult a qualified healthcare professional. Stop using the Service if it causes discomfort or interferes with safe activity.
 
@@ -65,7 +65,7 @@ If a free trial is offered, it may convert to a paid Subscription unless cancele
 
 You may choose to create posture sessions, check-ins, tension ratings, notes, settings, and progress history in the Service. You are responsible for information You enter into the Application.
 
-The Service is designed to process posture motion signals on Your Device. The current iOS build does not save video or provide camera posture analysis. Some Application data may be stored locally on Your Device and may be included in iCloud backup or sync features depending on Your Device settings, Apple account configuration, and the Application's configuration.
+The Service is designed to process posture motion signals on Your Device. Some Application data may be stored locally on Your Device and may be included in iCloud backup or sync features depending on Your Device settings, Apple account configuration, and the Application's configuration.
 
 You are responsible for maintaining backups of any information You want to keep. We are not responsible for data loss caused by device failure, deletion, operating system behavior, account changes, or other events outside Our reasonable control.
 

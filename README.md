@@ -21,3 +21,4 @@ Expected public URLs:
 3. In the repository settings, open **Pages** and publish from `main` using the repository root.
 
 If the repo is named exactly `spammusubitech.github.io`, GitHub Pages will serve it from `https://spammusubitech.github.io/`.
+
