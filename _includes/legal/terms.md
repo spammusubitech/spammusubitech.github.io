@@ -1,6 +1,6 @@
 # Terms and Conditions for Noodle
 
-Last updated: May 6, 2026
+Last updated: May 11, 2026
 
 Please read these Terms and Conditions carefully before using Noodle.
 
@@ -63,7 +63,7 @@ If a free trial is offered, it may convert to a paid Subscription unless cancele
 
 ## Your Data and Notes
 
-You may choose to create posture sessions, check-ins, tension ratings, notes, settings, and progress history in the Service. You are responsible for information You enter into the Application.
+You may choose to create posture sessions, check-ins, self-reported posture ratings, posture intensity, notes, settings, and progress history in the Service. You are responsible for information You enter into the Application.
 
 The Service is designed to process posture motion signals on Your Device. Some Application data may be stored locally on Your Device and may be included in iCloud backup or sync features depending on Your Device settings, Apple account configuration, and the Application's configuration.
 

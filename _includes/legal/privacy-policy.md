@@ -1,10 +1,12 @@
 # Privacy Policy for Noodle
 
-Last updated: May 6, 2026
+Last updated: May 11, 2026
 
 This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Noodle. References to Noodle may include Noodle Posture, `noodle-posture`, or similar posture-related names used in older builds, app metadata, support materials, URLs, or internal project references.
 
 Noodle is designed to keep posture motion processing on Your Device. Raw posture motion is not sent to Our servers for analysis, while slouch scores, sessions, check-ins, and history may be stored or synced as described below.
+
+Noodle's posture awareness features are not medical advice, diagnosis, treatment, physical therapy, or a substitute for professional care.
 
 ## Interpretation and Definitions
 
@@ -42,7 +44,7 @@ Noodle may process information on Your Device to provide posture awareness featu
 
 - Headphone motion signals from motion-capable AirPods or compatible headphones made available through Apple's Core Motion APIs.
 - Calibration baseline, posture state, movement confidence, and related posture estimates.
-- Session start and end times, target duration, duration, check-in count, posture ratings, tension level, and progress summaries.
+- Session start and end times, target duration, duration, check-in count, self-reported posture ratings, posture intensity, and progress summaries.
 - Reminder settings, sensitivity settings, visual preferences, and similar app settings.
 
 Headphone motion signals are processed on Your Device to run live posture features. We do not receive raw AirPods motion streams or continuous posture measurements on Our servers for analysis. Slouch scores, sessions, check-ins, progress summaries, notes, reminders, and settings may be stored by the Application and may sync through iCloud as described below.
