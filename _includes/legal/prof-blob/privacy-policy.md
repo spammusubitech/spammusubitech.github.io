@@ -1,10 +1,10 @@
 # Privacy Policy for Prof Blob
 
-Last updated: May 2, 2026
+Last updated: June 20, 2026
 
-This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob.
+This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
 
-Prof Blob is designed to help You create a short cognitive pause before opening selected apps. Screen Time selections, math-gate history, unlock timers, rules, streaks, and progress summaries are primarily stored on Your Device and, depending on Your Apple and iCloud settings, may sync or back up through Apple services.
+Prof Blob helps You create a short cognitive pause before opening selected apps. Screen Time selections, math-gate history, unlock timers, rules, focus sessions, emergency passes, widget snapshots, streaks, and progress summaries are primarily stored on Your Device and, depending on Your Apple and iCloud settings, may sync or back up through Apple services.
 
 ## Interpretation and Definitions
 
@@ -21,9 +21,11 @@ For this Privacy Policy:
 - **Company** means Spam Musubi Technologies LLC, 3400 Cottage Way, Ste G2 #11929 Sacramento, California 95825. The Company may also be referred to as "We," "Us," or "Our."
 - **Country** refers to California, United States.
 - **Device** means any device that can access or run the Service, such as an iPhone, iPad, or other compatible device.
+- **In-app Purchase** means a purchase of a product, feature, service, or Subscription made through the Application and handled by the Application Store.
 - **Personal Data** means information that relates to an identified or identifiable individual.
-- **Service** means the Application and the features made available through it.
+- **Service** means the Application and the features made available through it, including app extensions and widgets.
 - **Service Provider** means a person or company that processes information on Our behalf or helps Us provide the Service.
+- **Subscription** means paid access to premium features of the Service offered on a recurring basis.
 - **Usage Data** means information collected automatically about use of the Service or the Device environment.
 - **You** means the individual accessing or using the Service, or the company or other legal entity on whose behalf that individual is accessing or using the Service.
 
@@ -35,7 +37,7 @@ You may provide information when You use or contact Us about the Service, includ
 
 - Support messages, email address, and other contact details if You contact Us.
 - Onboarding choices, such as which apps feel distracting, when distraction usually happens, what You want more time for, and Your estimated daily phone use.
-- Settings and preferences, such as unlock duration, challenge difficulty, cooldown duration, escalation sensitivity, daily goals, Hard Hours, and notification preferences.
+- Settings and preferences, such as unlock duration, challenge difficulty, cooldown duration, escalation sensitivity, daily goals, Hard Hours, Focus Hours, daily time or open limits, Strict Mode, emergency passes, reflection reminders, and notification preferences.
 - Purchase-related choices, such as which Subscription or In-app Purchase You select, as processed through the Application Store and Our purchase provider.
 
 ### Screen Time, Protected Apps, and Usage Information
@@ -45,34 +47,41 @@ Prof Blob uses Apple's Screen Time APIs, including FamilyControls, DeviceActivit
 - Screen Time authorization status.
 - App, category, or web-domain selections You choose to protect.
 - System-provided app tokens and app display names for protected apps.
-- Protection state, unlock-pass state, base challenge level, active blocking schedules, Hard Hours settings, and rule configuration.
+- Protection state, unlock-pass state, emergency protection pause state, base challenge level, active schedules, Hard Hours or Focus Hours settings, daily limits, open limits, Strict Mode status, and rule configuration.
 - DeviceActivity summaries, such as app display names, bundle identifiers when available, usage minutes, pickup counts, and daily or weekly usage summaries.
 
 Screen Time data is used to run the Service, show progress, and apply Your protection rules. We do not receive Your full Apple ID credentials, full Application Store account credentials, or full payment details through Screen Time.
 
-### Math Gate, Progress, and Streak Information
+### Math Gate, Focus, Progress, and Streak Information
 
-Prof Blob may store or process information about gate activity, including:
+Prof Blob may store or process information about gate and focus activity, including:
 
-- When a gate appears, is solved, is abandoned, or results in a walk-away.
+- When a gate appears, is solved, is abandoned, results in a walk-away, uses an emergency unlock, or grants an unlock pass.
 - Failed attempts, cooldowns, unlock duration, challenge level, challenge text, timestamps, session identifiers, and app display names or app tokens associated with the gate.
-- Interceptions, solved gates, walk-aways, repeated opens, streaks, estimated time avoided, top app summaries, and similar progress metrics.
+- Focus session start and end times, planned duration, completion status, focused minutes, and related challenge-level changes.
+- Interceptions, solved gates, walk-aways, repeated opens, streaks, estimated time avoided, daily scores, top app summaries, pass reflections, and similar progress metrics.
 
-This information is used to provide the gate ritual, adjust difficulty, show progress, and support analytics about Your intentional app use.
+This information is used to provide the gate ritual, adjust difficulty, run Focus Mode, show progress, update widgets, and support analytics about Your intentional app use.
+
+### Widgets, App Extensions, and Shared Data
+
+Prof Blob includes app extensions for Screen Time shields, activity reports, device activity monitoring, shield actions, and Home Screen widgets. These extensions may read or write limited data through the app group shared with the main Application, such as protected app tokens, pending gate state, unlock-pass state, notification state, protection pause state, today's interception and walk-away counts, streak timestamps, and widget snapshots.
+
+Widget snapshots may include summary values such as daily score, screen time minutes, pickups, interceptions, solved gates, walk-aways, current streak, and a high-level state used to choose widget styling. Widgets are designed to show glanceable summaries and do not create a separate user account.
 
 ### Device Permissions and Notifications
 
 The Application may request Screen Time authorization and notification permission. Permission choices are controlled through Your Device settings.
 
-If notification permission is granted, the Application can schedule local gate notifications, such as a prompt to return to Prof Blob and solve a math problem. Notification content and delivery are handled by Your Device and Apple notification services.
+If notification permission is granted, the Application can schedule local notifications, such as gate prompts, reflection reminders, or subscription trial renewal reminders. Notification content and delivery are handled by Your Device and Apple notification services.
 
-The current iOS build is designed around local gate notifications and does not register You for marketing push notifications.
+The current iOS build is designed around local notifications and does not register You for marketing push notifications.
 
 ### Analytics, Feature Flags, and Diagnostics
 
-The Application may use PostHog for product analytics and feature flags. Analytics events may include event names and properties such as app display name, challenge level, unlock duration, open count, gate outcome, failed-attempt events, session identifier, feature flag values, app version, Device model, operating system version, approximate location derived from network information, and similar technical metadata.
+The Application may use PostHog for product analytics and feature flags. Analytics events may include event names and properties such as app display name, challenge level, unlock duration, open count, gate outcome, failed-attempt events, emergency-pass events, protection-pause events, focus-session events, session identifier, paywall and offering metadata, feature flag values, app version, Device model, operating system version, approximate location derived from network information, and similar technical metadata.
 
-We use analytics to understand whether the Service works, improve the onboarding and gate experience, evaluate feature flags, diagnose issues, and measure aggregate product usage. We do not send raw DeviceActivity reports to PostHog, but some gate analytics events may include protected app display names and gate metadata.
+We use analytics to understand whether the Service works, improve onboarding, gates, focus sessions, widgets, settings, and paywalls, evaluate feature flags, diagnose issues, and measure aggregate product usage. We do not send raw DeviceActivity reports to PostHog, but some gate analytics events may include protected app display names and gate metadata.
 
 Apple may provide developers with App Store analytics, crash reports, performance diagnostics, purchase records, and similar information according to Your Apple settings and Apple's policies. This information may include aggregated usage metrics, crash logs, Device model, operating system version, region, and diagnostic details.
 
@@ -94,9 +103,9 @@ We use information for the following purposes:
 
 - To provide and maintain the Service.
 - To request and manage Screen Time permissions.
-- To protect selected apps, show shields, run math gates, grant unlock passes, and manage cooldowns.
-- To generate math challenges, evaluate answers, adjust difficulty, and apply Hard Hours or other rules.
-- To show progress, streaks, analytics, usage summaries, top apps, and estimated time avoided.
+- To protect selected apps, show shields, run math gates, grant unlock passes, manage emergency passes, manage protection pauses, and manage cooldowns.
+- To generate math challenges, evaluate answers, adjust difficulty, and apply Hard Hours, Focus Hours, Focus Mode, Strict Mode, limits, or other rules.
+- To show progress, streaks, analytics, usage summaries, top apps, focus summaries, widget snapshots, daily scores, and estimated time avoided.
 - To save Your app settings and preferences.
 - To schedule and deliver local notifications.
 - To process, verify, restore, or support In-app Purchases and Subscriptions.
@@ -107,7 +116,7 @@ We use information for the following purposes:
 
 ## How Information Is Stored
 
-Protected app selections, rules, gate events, progress history, streaks, usage summaries, onboarding choices, and settings are primarily stored on Your Device using local storage such as Core Data and UserDefaults, including storage shared with Prof Blob's app extensions through the app group.
+Protected app selections, rules, gate events, progress history, streaks, usage summaries, onboarding choices, focus sessions, emergency-pass state, widget snapshots, and settings are primarily stored on Your Device using local storage such as Core Data and UserDefaults, including storage shared with Prof Blob's app extensions through the app group.
 
 Depending on Your Device settings, Apple account settings, backup settings, and Application configuration, some Application data may be included in iCloud backups or synced through Apple's CloudKit or other iCloud services. We do not operate a separate cloud service for storing raw Screen Time reports.
 
@@ -115,7 +124,7 @@ Depending on Your Device settings, Apple account settings, backup settings, and 
 
 We may share information in the following situations:
 
-- **With Apple and Application Store services:** Apple may process information related to app downloads, Screen Time authorization, protected-app controls, DeviceActivity reports, ManagedSettings shields, notifications, iCloud backup or sync, diagnostics, purchases, subscriptions, refunds, and App Store analytics.
+- **With Apple and Application Store services:** Apple may process information related to app downloads, Screen Time authorization, protected-app controls, DeviceActivity reports, ManagedSettings shields, app extensions, widgets, notifications, iCloud backup or sync, diagnostics, purchases, subscriptions, refunds, and App Store analytics.
 - **With RevenueCat:** RevenueCat helps Us manage purchases, Subscriptions, entitlements, offerings, purchase restoration, attribution, and related diagnostics.
 - **With PostHog:** PostHog helps Us understand product usage, run analytics, and evaluate feature flags.
 - **With Service Providers:** We may use providers for support, email, hosting, diagnostics, purchase validation, analytics, feature flags, or similar operational needs.
@@ -138,7 +147,7 @@ Analytics and diagnostic records may be retained by Us or Our Service Providers 
 
 ## Deleting Your Information
 
-You can delete local Application data by using available app controls, deleting individual records where supported, revoking Screen Time access, or deleting the Application from Your Device.
+You can delete local Application data by using available app controls, deleting individual records where supported, revoking Screen Time access, disabling widgets, or deleting the Application from Your Device.
 
 Deleting the Application may not delete information stored by Apple, such as App Store purchase history, Screen Time permissions, iCloud backups, diagnostics, or subscription records. You can manage Apple data through Your Apple account and Device settings.
 
@@ -166,7 +175,7 @@ We take reasonable steps to handle information in accordance with this Privacy P
 
 Depending on where You live, You may have rights to request access to, correction of, deletion of, or information about Personal Data We process about You.
 
-Because much of Prof Blob's Screen Time, gate, and progress data is stored locally on Your Device or with Apple services, We may not have access to it. You can manage local data through the Application and Device controls.
+Because much of Prof Blob's Screen Time, gate, focus, widget, and progress data is stored locally on Your Device or with Apple services, We may not have access to it. You can manage local data through the Application and Device controls.
 
 To exercise rights for information You have provided directly to Us or information processed by Our Service Providers on Our behalf, contact Us at the email address below.
 
