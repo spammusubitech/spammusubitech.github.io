@@ -65,7 +65,7 @@ The Application Store may process information related to downloads, installation
 
 If Canto Cab is sold as a paid download or offers an In-app Purchase, payment is processed by the Application Store. We do not receive or store Your full payment-card number, card security code, or full Application Store credentials. We may receive limited purchase or entitlement information needed to provide or restore paid content, answer support requests, comply with law, or prevent fraud.
 
-The current version does not use a separate third-party purchase-management SDK. If that changes, We will update this Privacy Policy as appropriate before using the new provider to process information.
+The current version does not offer In-app Purchases, and Unity Purchasing is not enabled to process purchase data. If that changes, We will update this Privacy Policy as appropriate before using a purchase provider to process information.
 
 ### Diagnostics and Technical Information
 
