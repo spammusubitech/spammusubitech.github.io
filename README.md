@@ -4,6 +4,9 @@ This folder is ready to publish in a public `spammusubitech.github.io` repositor
 
 Expected public URLs:
 
+- `https://spammusubitech.github.io/canto-cab/`
+- `https://spammusubitech.github.io/canto-cab/terms/`
+- `https://spammusubitech.github.io/canto-cab/privacy/`
 - `https://spammusubitech.github.io/noodle-posture/`
 - `https://spammusubitech.github.io/noodle-posture/terms/`
 - `https://spammusubitech.github.io/noodle-posture/privacy/`
@@ -21,4 +24,3 @@ Expected public URLs:
 3. In the repository settings, open **Pages** and publish from `main` using the repository root.
 
 If the repo is named exactly `spammusubitech.github.io`, GitHub Pages will serve it from `https://spammusubitech.github.io/`.
-
