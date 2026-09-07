@@ -1,6 +1,6 @@
 # Privacy Policy for Prof Blob
 
-Last updated: June 20, 2026
+Last updated: September 7, 2026
 
 This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
 
@@ -71,7 +71,7 @@ Widget snapshots may include summary values such as daily score, screen time min
 
 ### Device Permissions and Notifications
 
-The Application may request Screen Time authorization and notification permission. Permission choices are controlled through Your Device settings.
+The Application may request Screen Time authorization, notification permission, and Apple's App Tracking Transparency permission for advertising measurement. Permission choices are controlled through Your Device settings. Declining tracking permission does not prevent You from using Prof Blob or purchasing a Subscription.
 
 If notification permission is granted, the Application can schedule local notifications, such as gate prompts, reflection reminders, or subscription trial renewal reminders. Notification content and delivery are handled by Your Device and Apple notification services.
 
@@ -90,6 +90,16 @@ Apple may provide developers with App Store analytics, crash reports, performanc
 If You make an In-app Purchase or purchase a Subscription, payment is processed by the Application Store. We do not receive or store Your full payment card number, billing card security code, or full Application Store account credentials.
 
 The Application uses RevenueCat to help manage purchases, Subscriptions, entitlements, offerings, purchase restoration, and fraud prevention. RevenueCat may process purchase identifiers, entitlement status, app user identifiers, Device identifiers, AdServices attribution information, Application Store transaction information, IP address, Device and app metadata, and related diagnostics as needed to provide purchase services.
+
+### Advertising Measurement
+
+Prof Blob uses Meta's SDK and RevenueCat's Meta integration to measure whether advertisements lead to app installs and paid Subscriptions. Meta's SDK sends app-install and app-activation signals, together with technical app and Device information such as app version, operating system information, network information, and app/device identifiers as permitted by Your settings. Advertising identifier (IDFA) collection is enabled only when Apple's App Tracking Transparency permission is authorized.
+
+With authorized tracking permission, the Application provides RevenueCat with Meta's app-generated anonymous identifier and available advertising identifiers for matching subscription activity to advertisements. RevenueCat may send trial starts, trial conversions, paid subscription starts, renewals, other purchases, transaction identifiers, purchase amounts, currency, and associated attribution identifiers to Meta. Free trial starts are reported separately from paid Subscriptions. Our current RevenueCat integration requires authorized tracking consent for this delivery. Subscription events can be processed while the Application is closed, based on the consent information available to RevenueCat.
+
+This advertising integration does not forward Your protected-app selections, raw Screen Time reports, math answers, or gate history to Meta. It does not forward Our PostHog event stream to Meta.
+
+You can change tracking permission in Your Device's Settings under Privacy & Security > Tracking. Reopening Prof Blob refreshes the consent information shared with RevenueCat. Changing this permission does not automatically delete information previously processed by Meta or RevenueCat. See "Deleting Your Information" below for requests concerning existing data. Meta's handling of information is also described in its [Privacy Policy](https://www.facebook.com/privacy/policy/).
 
 ### Camera, Microphone, and Precise Location
 
@@ -110,6 +120,7 @@ We use information for the following purposes:
 - To schedule and deliver local notifications.
 - To process, verify, restore, or support In-app Purchases and Subscriptions.
 - To provide product analytics, feature flags, diagnostics, and performance improvements.
+- To measure advertising effectiveness and subscription conversions, subject to the permissions and choices described above.
 - To respond to Your support requests.
 - To comply with legal obligations and enforce Our Terms.
 - To protect the rights, safety, and security of users, the Company, and others.
@@ -127,13 +138,14 @@ We may share information in the following situations:
 - **With Apple and Application Store services:** Apple may process information related to app downloads, Screen Time authorization, protected-app controls, DeviceActivity reports, ManagedSettings shields, app extensions, widgets, notifications, iCloud backup or sync, diagnostics, purchases, subscriptions, refunds, and App Store analytics.
 - **With RevenueCat:** RevenueCat helps Us manage purchases, Subscriptions, entitlements, offerings, purchase restoration, attribution, and related diagnostics.
 - **With PostHog:** PostHog helps Us understand product usage, run analytics, and evaluate feature flags.
+- **With Meta:** Meta receives app-install, app-activation, and advertising-measurement information as described above. RevenueCat may send subscription events and matching information to Meta when the consent requirements of Our integration are met.
 - **With Service Providers:** We may use providers for support, email, hosting, diagnostics, purchase validation, analytics, feature flags, or similar operational needs.
 - **For legal reasons:** We may disclose information if required by law or in response to valid legal requests from public authorities.
 - **To protect rights and safety:** We may disclose information when We believe it is necessary to protect the Company, users, the public, or the Service.
 - **For business transfers:** Information may be transferred in connection with a merger, acquisition, financing, reorganization, sale of assets, or similar business transaction.
 - **With Your consent:** We may share information for another purpose if You consent.
 
-We do not sell Personal Data. We do not use Personal Data for cross-context behavioral advertising.
+We do not sell Personal Data for money. The advertising measurement described above involves sharing information with Meta and matching it with information from Meta's services. Depending on applicable law, this may be considered sharing for cross-context behavioral advertising. You can decline or withdraw tracking permission in Your Device settings and contact Us about applicable opt-out rights.
 
 ## Retention
 
@@ -151,7 +163,9 @@ You can delete local Application data by using available app controls, deleting 
 
 Deleting the Application may not delete information stored by Apple, such as App Store purchase history, Screen Time permissions, iCloud backups, diagnostics, or subscription records. You can manage Apple data through Your Apple account and Device settings.
 
-You may contact Us to request access, correction, or deletion of Personal Data You have provided directly to Us. We may need to retain certain information when required or permitted by law.
+To request access, correction, or deletion of Personal Data held by Us or processed by providers on Our behalf, email contact@spammusubitech.com with the subject "Prof Blob data request". Describe Your request and provide only information needed to locate the relevant records, such as a support correspondence email or an app/customer identifier if You have it. Do not send passwords, complete payment-card information, or Apple Account credentials. We may ask for information needed to verify and fulfill the request, and may need to retain certain information when required or permitted by law.
+
+Deleting the Application does not cancel an active Subscription; manage subscriptions through Your Apple Account settings. Information independently held by Apple or Meta may also be subject to those providers' own privacy controls and retention obligations.
 
 ## Security
 
