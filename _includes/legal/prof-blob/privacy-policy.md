@@ -1,6 +1,6 @@
 # Privacy Policy for Prof Blob
 
-Last updated: September 10, 2026
+Last updated: September 11, 2026
 
 This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
 
@@ -107,9 +107,9 @@ The Application uses RevenueCat to help manage purchases, Subscriptions, entitle
 
 ### Advertising Measurement
 
-Prof Blob uses Meta's SDK and RevenueCat's Meta integration to measure whether advertisements lead to app installs and paid Subscriptions. Meta's SDK sends app-install and app-activation signals, together with technical app and Device information such as app version, operating system information, network information, and app/device identifiers as permitted by Your settings. Advertising identifier (IDFA) collection is enabled only when Apple's App Tracking Transparency permission is authorized.
+Prof Blob uses Meta's SDK and RevenueCat's Meta integration to measure advertising performance. Meta's SDK sends app-install and app-activation signals, and reports new free-trial starts from supported app versions. Trial-start events include the subscription product identifier, a zero purchase value and currency, and an event identifier derived from the store transaction, together with technical app and device information collected by the SDK. Trial-start signals may be sent when Apple's App Tracking Transparency permission has not been granted. The SDK reports the applicable tracking-permission status, and advertising identifier (IDFA) collection is enabled only when that permission is authorized. Trial-start reporting is not enabled for restricted tracking-permission states.
 
-With authorized tracking permission, the Application provides RevenueCat with Meta's app-generated anonymous identifier and available advertising identifiers for matching subscription activity to advertisements. RevenueCat may send trial starts, trial conversions, paid subscription starts, renewals, other purchases, transaction identifiers, purchase amounts, currency, and associated attribution identifiers to Meta. Free trial starts are reported separately from paid Subscriptions. Our current RevenueCat integration requires authorized tracking consent for this delivery. Subscription events can be processed while the Application is closed, based on the consent information available to RevenueCat.
+With authorized tracking permission, the Application provides RevenueCat with Meta's app-generated anonymous identifier and available advertising identifiers for matching paid subscription activity to advertisements. RevenueCat may send trial conversions, paid subscription starts, renewals, other purchases, transaction identifiers, purchase amounts, currency, and associated attribution identifiers to Meta. Our RevenueCat integration requires authorized tracking consent for this delivery. Free-trial starts are sent separately by the Meta SDK and are not counted as paid Subscriptions. Subscription events from RevenueCat can be processed while the Application is closed, based on the consent information available to RevenueCat.
 
 This advertising integration does not forward Your protected-app selections, raw Screen Time reports, math answers, or gate history to Meta. It does not forward Our PostHog event stream to Meta.
 
