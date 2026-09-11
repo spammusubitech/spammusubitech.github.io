@@ -1,10 +1,24 @@
 # Privacy Policy for Prof Blob
 
-Last updated: September 7, 2026
+Last updated: September 10, 2026
 
 This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
 
 Prof Blob helps You create a short cognitive pause before opening selected apps. Screen Time selections, math-gate history, unlock timers, rules, focus sessions, emergency passes, widget snapshots, streaks, and progress summaries are primarily stored on Your Device and, depending on Your Apple and iCloud settings, may sync or back up through Apple services.
+
+## Android App: blob: screen time control
+
+The Android version is also named **blob: screen time control**. References below to Apple's Screen Time APIs, iOS app extensions, iCloud, App Tracking Transparency, or AdServices describe the iOS version. The Android version uses the following services and controls instead:
+
+- **Usage Access:** With Your permission, Android usage events and summaries provide app package names, usage times, and opening counts for local screen-time statistics and selected-app limits.
+- **AccessibilityService:** After an in-app disclosure and Your explicit permission in Android Settings, Blob observes window-change events to identify when a selected app opens and displays its math gate. The service is configured not to retrieve window contents. It does not read screen contents or collect typed text, perform taps or typing in other apps, or change Android settings for You. You may disable the service in Android Settings.
+- **On-device storage and backups:** Selected app packages, settings, onboarding responses, gate history, pass and cooldown state, focus sessions, and progress use Android preferences and a local Room database. Depending on Your device and backup settings, Android may include this data in cloud backup or device transfer. Android backup is separate from iCloud sync.
+- **Analytics:** PostHog receives app interaction and gate events, experiment assignments, settings changes, purchase-flow events, a generated app-user identifier, and technical app/device information. Selected-app analytics use a shortened hash of the package name, rather than the raw package name or app display name. These hashes are pseudonymous; they should not be treated as anonymous. Raw Android usage reports, screen contents, and typed text are not sent as product analytics.
+- **Purchases:** Google Play processes Android payments. RevenueCat processes app-user identifiers, Play transaction and subscription information, entitlement status, offerings, restoration requests, and related technical data to provide purchase services. We do not receive Your full payment-card details or Google account credentials.
+- **Notifications and widgets:** If permitted, Android displays local reminders and temporary-pass status notifications. Widgets read local summary information. Delivery and refresh timing depend on Android and device settings.
+- **Advertising measurement:** Meta's SDK sends app-install and app-activation signals with technical app/device information. The app provides RevenueCat with Meta's app-generated anonymous identifier and available Google advertising identifiers for matching subscription activity to advertisements. RevenueCat may send trial starts, paid subscription starts, trial conversions, renewals, purchase amounts and currency to Meta, including while the app is closed. Free trials are reported separately from paid subscriptions. Android advertising-ID availability follows Your Google/device settings; Apple's App Tracking Transparency does not apply to Android. This integration does not forward protected-app selections, raw usage reports, math answers, gate history, or the PostHog event stream to Meta. The app does not request camera, microphone, or precise-location access.
+
+Google may process downloads, purchases, subscription management, backups, device transfers, and diagnostics under its own policies and Your Google/device settings. Manage Android subscriptions in Google Play; uninstalling Blob does not cancel a subscription. Clearing app storage or uninstalling removes local app data, subject to backups. It does not automatically delete records held by Google, RevenueCat, PostHog, Meta, or Us. The contact and data-request process below also applies to Android users; do not send Google account credentials.
 
 ## Interpretation and Definitions
 

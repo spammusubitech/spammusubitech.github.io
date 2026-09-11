@@ -1,8 +1,16 @@
 # Terms and Conditions for Prof Blob
 
-Last updated: June 20, 2026
+Last updated: September 10, 2026
 
 Please read these Terms and Conditions carefully before using Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
+
+## Android Version
+
+The Android version is named **blob: screen time control**. It uses Android Usage Access and a user-enabled AccessibilityService to provide usage summaries and math gates. Apple-specific APIs and services described below apply to the iOS version. Android users control Usage Access, accessibility, notifications, backups, and widgets through Android settings.
+
+Android protections depend on the permissions remaining enabled and on operating-system and device behavior. Strict Mode limits selected controls inside Blob; it does not prevent disabling the accessibility service, changing Android settings, or uninstalling the app. Android backup and device transfer depend on Your device settings and do not provide iCloud synchronization.
+
+Android purchases and subscriptions are processed through Google Play and RevenueCat. Prices, billing periods, and any trial terms are shown before purchase. Manage cancellation and refunds through Google Play under its applicable terms. Uninstalling Blob does not cancel a subscription. The Apple App Store-specific terms below apply only to downloads from that store.
 
 ## Interpretation and Definitions
 
