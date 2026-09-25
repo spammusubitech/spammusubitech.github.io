@@ -1,6 +1,6 @@
 # Privacy Policy for Prof Blob
 
-Last updated: September 11, 2026
+Last updated: September 24, 2026
 
 This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
 
@@ -111,9 +111,11 @@ Prof Blob uses Meta's SDK and RevenueCat's Meta integration to measure advertisi
 
 With authorized tracking permission, the Application provides RevenueCat with Meta's app-generated anonymous identifier and available advertising identifiers for matching paid subscription activity to advertisements. RevenueCat may send trial conversions, paid subscription starts, renewals, other purchases, transaction identifiers, purchase amounts, currency, and associated attribution identifiers to Meta. Our RevenueCat integration requires authorized tracking consent for this delivery. The Meta SDK reports free-trial starts separately from paid Subscriptions. During migration, RevenueCat may also send authorized free-trial activity as a separately named legacy event; it is not counted as a paid Subscription or as the SDK trial-start conversion event. Subscription events from RevenueCat can be processed while the Application is closed, based on the consent information available to RevenueCat.
 
-This advertising integration does not forward Your protected-app selections, raw Screen Time reports, math answers, or gate history to Meta. It does not forward Our PostHog event stream to Meta.
+Prof Blob also uses TikTok's Business SDK to measure advertising performance. The SDK sends app-install, app-launch, and app-retention events, together with technical app and device information collected by the SDK. Advertising identifier (IDFA) collection by TikTok's SDK happens only when Apple's App Tracking Transparency permission is authorized. Purchase and subscription tracking, enhanced data postbacks, and SKAdNetwork conversion-value updates are turned off in TikTok's SDK, so the Application does not send trial, purchase, or Subscription events to TikTok.
 
-You can change tracking permission in Your Device's Settings under Privacy & Security > Tracking. Reopening Prof Blob refreshes the consent information shared with RevenueCat. Changing this permission does not automatically delete information previously processed by Meta or RevenueCat. See "Deleting Your Information" below for requests concerning existing data. Meta's handling of information is also described in its [Privacy Policy](https://www.facebook.com/privacy/policy/).
+These advertising integrations do not forward Your protected-app selections, raw Screen Time reports, math answers, or gate history to Meta or TikTok. They do not forward Our PostHog event stream to Meta or TikTok.
+
+You can change tracking permission in Your Device's Settings under Privacy & Security > Tracking. Reopening Prof Blob refreshes the consent information shared with RevenueCat. Changing this permission does not automatically delete information previously processed by Meta, TikTok, or RevenueCat. See "Deleting Your Information" below for requests concerning existing data. Meta's handling of information is also described in its [Privacy Policy](https://www.facebook.com/privacy/policy/), and TikTok's in its [Privacy Policy](https://www.tiktok.com/legal/page/us/privacy-policy/en).
 
 ### Camera, Microphone, and Precise Location
 
@@ -153,13 +155,14 @@ We may share information in the following situations:
 - **With RevenueCat:** RevenueCat helps Us manage purchases, Subscriptions, entitlements, offerings, purchase restoration, attribution, and related diagnostics.
 - **With PostHog:** PostHog helps Us understand product usage, run analytics, and evaluate feature flags.
 - **With Meta:** Meta receives app-install, app-activation, and advertising-measurement information as described above. RevenueCat may send subscription events and matching information to Meta when the consent requirements of Our integration are met.
+- **With TikTok:** TikTok receives app-install, app-launch, app-retention, and related technical information for advertising measurement as described above.
 - **With Service Providers:** We may use providers for support, email, hosting, diagnostics, purchase validation, analytics, feature flags, or similar operational needs.
 - **For legal reasons:** We may disclose information if required by law or in response to valid legal requests from public authorities.
 - **To protect rights and safety:** We may disclose information when We believe it is necessary to protect the Company, users, the public, or the Service.
 - **For business transfers:** Information may be transferred in connection with a merger, acquisition, financing, reorganization, sale of assets, or similar business transaction.
 - **With Your consent:** We may share information for another purpose if You consent.
 
-We do not sell Personal Data for money. The advertising measurement described above involves sharing information with Meta and matching it with information from Meta's services. Depending on applicable law, this may be considered sharing for cross-context behavioral advertising. You can decline or withdraw tracking permission in Your Device settings and contact Us about applicable opt-out rights.
+We do not sell Personal Data for money. The advertising measurement described above involves sharing information with Meta and TikTok and matching it with information from their services. Depending on applicable law, this may be considered sharing for cross-context behavioral advertising. You can decline or withdraw tracking permission in Your Device settings and contact Us about applicable opt-out rights.
 
 ## Retention
 
@@ -179,7 +182,7 @@ Deleting the Application may not delete information stored by Apple, such as App
 
 To request access, correction, or deletion of Personal Data held by Us or processed by providers on Our behalf, email contact@spammusubitech.com with the subject "Prof Blob data request". Describe Your request and provide only information needed to locate the relevant records, such as a support correspondence email or an app/customer identifier if You have it. Do not send passwords, complete payment-card information, or Apple Account credentials. We may ask for information needed to verify and fulfill the request, and may need to retain certain information when required or permitted by law.
 
-Deleting the Application does not cancel an active Subscription; manage subscriptions through Your Apple Account settings. Information independently held by Apple or Meta may also be subject to those providers' own privacy controls and retention obligations.
+Deleting the Application does not cancel an active Subscription; manage subscriptions through Your Apple Account settings. Information independently held by Apple, Meta, or TikTok may also be subject to those providers' own privacy controls and retention obligations.
 
 ## Security
 
