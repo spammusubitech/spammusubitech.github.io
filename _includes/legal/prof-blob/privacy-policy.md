@@ -1,10 +1,14 @@
 # Privacy Policy for Prof Blob
 
-Last updated: September 24, 2026
+Last updated: October 14, 2026
 
 This Privacy Policy explains how Spam Musubi Technologies LLC handles information when You use Prof Blob. References to Prof Blob may include Blob, the `blob-screen-time` app, widgets, app extensions, public pages, support materials, or similar names used for the Service.
 
 Prof Blob helps You create a short cognitive pause before opening selected apps. Screen Time selections, math-gate history, unlock timers, rules, focus sessions, emergency passes, widget snapshots, streaks, and progress summaries are primarily stored on Your Device and, depending on Your Apple and iCloud settings, may sync or back up through Apple services.
+
+## iOS Version 2.0 and Later
+
+The iOS 2.0 companion experience adds a companion, a customizable habitat, phone-free growth, and a bonus for keeping selected apps protected. The sections below describe these features when You install iOS version 2.0 or later. Older installed iOS versions and the Android app can have different advertising-measurement behavior, as described separately below.
 
 ## Android App: blob: screen time control
 
@@ -53,6 +57,7 @@ You may provide information when You use or contact Us about the Service, includ
 - Onboarding choices, such as which apps feel distracting, when distraction usually happens, what You want more time for, and Your estimated daily phone use.
 - Settings and preferences, such as unlock duration, challenge difficulty, cooldown duration, escalation sensitivity, daily goals, Hard Hours, Focus Hours, daily time or open limits, Strict Mode, emergency passes, reflection reminders, and notification preferences.
 - Purchase-related choices, such as which Subscription or In-app Purchase You select, as processed through the Application Store and Our purchase provider.
+- In iOS 2.0 and later, Your companion's name, hobby, chosen evolution path, belongings, habitat arrangement, sleep schedule, and introduction choices.
 
 ### Screen Time, Protected Apps, and Usage Information
 
@@ -77,6 +82,14 @@ Prof Blob may store or process information about gate and focus activity, includ
 
 This information is used to provide the gate ritual, adjust difficulty, run Focus Mode, show progress, update widgets, and support analytics about Your intentional app use.
 
+### Companion, Phone-Free Growth, and Blocking Bonuses
+
+In iOS 2.0 and later, companion progress, XP, discoveries, evolution choices, belongings, habitat arrangement, and sleep hours are stored on Your Device. Screen Time usage totals, or a labeled estimate based on DeviceActivity usage thresholds where direct usage-data access is unavailable, support phone-free growth. Local protection and unlock records support the separate blocking bonus. These features do not treat time spent outside Blob alone as proof that You were not using Your phone.
+
+Sleep hours pause growth calculations. They are a schedule You choose, not a measurement of Your sleep, health, or physical activity. Screen Time permissions, reporting delays, and Device capabilities affect whether and when growth is available.
+
+Companion widgets read a limited snapshot through the app group, including the companion's name, form, level, and habitat. If You choose to share a portrait or postcard, the iOS share sheet sends the image and any accompanying text to the app or recipient You select. The image may show Your companion's name and world. Sharing does not enroll You in a referral service.
+
 ### Widgets, App Extensions, and Shared Data
 
 Prof Blob includes app extensions for Screen Time shields, activity reports, device activity monitoring, shield actions, and Home Screen widgets. These extensions may read or write limited data through the app group shared with the main Application, such as protected app tokens, pending gate state, unlock-pass state, notification state, protection pause state, today's interception and walk-away counts, streak timestamps, and widget snapshots.
@@ -85,7 +98,7 @@ Widget snapshots may include summary values such as daily score, screen time min
 
 ### Device Permissions and Notifications
 
-The Application may request Screen Time authorization, notification permission, and Apple's App Tracking Transparency permission for advertising measurement. Permission choices are controlled through Your Device settings. Declining tracking permission does not prevent You from using Prof Blob or purchasing a Subscription.
+The iOS Application may request Screen Time authorization and notification permission. iOS 2.0 and later do not request Apple's App Tracking Transparency permission or collect the advertising identifier (IDFA). Earlier iOS versions may have different advertising-measurement behavior, described below. Permission choices are controlled through Your Device settings. Declining a permission does not prevent You from purchasing a Subscription, although features that need that permission may be unavailable.
 
 If notification permission is granted, the Application can schedule local notifications, such as gate prompts, reflection reminders, or subscription trial renewal reminders. Notification content and delivery are handled by Your Device and Apple notification services.
 
@@ -97,6 +110,8 @@ The Application may use PostHog for product analytics and feature flags. Analyti
 
 We use analytics to understand whether the Service works, improve onboarding, gates, focus sessions, widgets, settings, and paywalls, evaluate feature flags, diagnose issues, and measure aggregate product usage. We do not send raw DeviceActivity reports to PostHog, but some gate analytics events may include protected app display names and gate metadata.
 
+For the companion introduction, product analytics may include the step viewed, completion, and selected goal or hobby. We do not send Your chosen companion name, portrait image, or raw Screen Time reports as product analytics. RevenueCat is linked to the app's PostHog identifier and experiment assignments to help Us understand purchase flows and product usage; these identifiers are pseudonymous and should not be treated as anonymous.
+
 Apple may provide developers with App Store analytics, crash reports, performance diagnostics, purchase records, and similar information according to Your Apple settings and Apple's policies. This information may include aggregated usage metrics, crash logs, Device model, operating system version, region, and diagnostic details.
 
 ### Payment and Subscription Information
@@ -107,15 +122,23 @@ The Application uses RevenueCat to help manage purchases, Subscriptions, entitle
 
 ### Advertising Measurement
 
-Prof Blob uses Meta's SDK and RevenueCat's Meta integration to measure advertising performance. Meta's SDK sends app-install and app-activation signals, and reports new free-trial starts from supported app versions. Trial-start events include the subscription product identifier, a zero purchase value and currency, and an event identifier derived from the store transaction, together with technical app and device information collected by the SDK. Trial-start signals may be sent when Apple's App Tracking Transparency permission has not been granted. The SDK reports the applicable tracking-permission status, and advertising identifier (IDFA) collection is enabled only when that permission is authorized. Trial-start reporting is not enabled for restricted tracking-permission states.
+#### iOS Version 2.0 and Later
+
+The iOS 2.0 app does not embed Meta's or TikTok's SDK, request App Tracking Transparency permission, or read IDFA. It uses Apple's SKAdNetwork for privacy-preserving install attribution and enables Apple AdServices attribution through RevenueCat. Apple controls SKAdNetwork attribution and delayed reporting to participating advertising networks. Blob does not attach a companion name, raw Screen Time report, gate history, or individual purchase event to its SKAdNetwork install-registration call.
+
+On launch, iOS 2.0 asks RevenueCat to clear advertising attributes previously supplied by the app, including Meta's anonymous identifier and the previously supplied advertising identifier, vendor identifier, and IP-address attribute. This does not delete historical records or prevent RevenueCat from processing technical information needed for purchase services. Updating the app also does not itself disable an existing server-side advertising integration. Subscription events associated with older records may continue to be processed according to the stored consent information and integration requirements described below.
+
+#### Earlier iOS Versions and Existing Advertising Records
+
+Earlier iOS versions of Prof Blob use Meta's SDK and RevenueCat's Meta integration to measure advertising performance. Meta's SDK sends app-install and app-activation signals, and reports new free-trial starts from supported app versions. Trial-start events include the subscription product identifier, a zero purchase value and currency, and an event identifier derived from the store transaction, together with technical app and device information collected by the SDK. Trial-start signals may be sent when Apple's App Tracking Transparency permission has not been granted. The SDK reports the applicable tracking-permission status, and advertising identifier (IDFA) collection is enabled only when that permission is authorized. Trial-start reporting is not enabled for restricted tracking-permission states.
 
 With authorized tracking permission, the Application provides RevenueCat with Meta's app-generated anonymous identifier and available advertising identifiers for matching paid subscription activity to advertisements. RevenueCat may send trial conversions, paid subscription starts, renewals, other purchases, transaction identifiers, purchase amounts, currency, and associated attribution identifiers to Meta. Our RevenueCat integration requires authorized tracking consent for this delivery. The Meta SDK reports free-trial starts separately from paid Subscriptions. During migration, RevenueCat may also send authorized free-trial activity as a separately named legacy event; it is not counted as a paid Subscription or as the SDK trial-start conversion event. Subscription events from RevenueCat can be processed while the Application is closed, based on the consent information available to RevenueCat.
 
-Prof Blob also uses TikTok's Business SDK to measure advertising performance. The SDK sends app-install, app-launch, and app-retention events, together with technical app and device information collected by the SDK. Advertising identifier (IDFA) collection by TikTok's SDK happens only when Apple's App Tracking Transparency permission is authorized. Purchase and subscription tracking, enhanced data postbacks, and SKAdNetwork conversion-value updates are turned off in TikTok's SDK, so the Application does not send trial, purchase, or Subscription events to TikTok.
+Earlier iOS versions also use TikTok's Business SDK to measure advertising performance. The SDK sends app-install, app-launch, and app-retention events, together with technical app and device information collected by the SDK. Advertising identifier (IDFA) collection by TikTok's SDK happens only when Apple's App Tracking Transparency permission is authorized. Purchase and subscription tracking, enhanced data postbacks, and SKAdNetwork conversion-value updates are turned off in TikTok's SDK, so the Application does not send trial, purchase, or Subscription events to TikTok.
 
 These advertising integrations do not forward Your protected-app selections, raw Screen Time reports, math answers, or gate history to Meta or TikTok. They do not forward Our PostHog event stream to Meta or TikTok.
 
-You can change tracking permission in Your Device's Settings under Privacy & Security > Tracking. Reopening Prof Blob refreshes the consent information shared with RevenueCat. Changing this permission does not automatically delete information previously processed by Meta, TikTok, or RevenueCat. See "Deleting Your Information" below for requests concerning existing data. Meta's handling of information is also described in its [Privacy Policy](https://www.facebook.com/privacy/policy/), and TikTok's in its [Privacy Policy](https://www.tiktok.com/legal/page/us/privacy-policy/en).
+You can change tracking permission in Your Device's Settings under Privacy & Security > Tracking. Where supported by the installed version, reopening Prof Blob refreshes the consent information shared with RevenueCat. Changing this permission does not automatically delete information previously processed by Meta, TikTok, or RevenueCat. See "Deleting Your Information" below for requests concerning existing data. Meta's handling of information is also described in its [Privacy Policy](https://www.facebook.com/privacy/policy/), and TikTok's in its [Privacy Policy](https://www.tiktok.com/legal/page/us/privacy-policy/en).
 
 ### Camera, Microphone, and Precise Location
 
@@ -132,7 +155,7 @@ We use information for the following purposes:
 - To protect selected apps, show shields, run math gates, grant unlock passes, manage emergency passes, manage protection pauses, and manage cooldowns.
 - To generate math challenges, evaluate answers, adjust difficulty, and apply Hard Hours, Focus Hours, Focus Mode, Strict Mode, limits, or other rules.
 - To show progress, streaks, analytics, usage summaries, top apps, focus summaries, widget snapshots, daily scores, and estimated time avoided.
-- To save Your app settings and preferences.
+- To save Your app settings and preferences, companion and habitat choices, sleep schedule, growth history, and discoveries.
 - To schedule and deliver local notifications.
 - To process, verify, restore, or support In-app Purchases and Subscriptions.
 - To provide product analytics, feature flags, diagnostics, and performance improvements.
@@ -154,8 +177,8 @@ We may share information in the following situations:
 - **With Apple and Application Store services:** Apple may process information related to app downloads, Screen Time authorization, protected-app controls, DeviceActivity reports, ManagedSettings shields, app extensions, widgets, notifications, iCloud backup or sync, diagnostics, purchases, subscriptions, refunds, and App Store analytics.
 - **With RevenueCat:** RevenueCat helps Us manage purchases, Subscriptions, entitlements, offerings, purchase restoration, attribution, and related diagnostics.
 - **With PostHog:** PostHog helps Us understand product usage, run analytics, and evaluate feature flags.
-- **With Meta:** Meta receives app-install, app-activation, and advertising-measurement information as described above. RevenueCat may send subscription events and matching information to Meta when the consent requirements of Our integration are met.
-- **With TikTok:** TikTok receives app-install, app-launch, app-retention, and related technical information for advertising measurement as described above.
+- **With Meta:** Earlier iOS versions and the Android app send the SDK advertising-measurement information described above. Apple may also provide privacy-preserving install-attribution reports. RevenueCat may send subscription events and matching information to Meta when the consent requirements of Our integration are met.
+- **With TikTok:** Earlier iOS versions send the SDK advertising-measurement information described above. iOS 2.0 does not include TikTok's SDK.
 - **With Service Providers:** We may use providers for support, email, hosting, diagnostics, purchase validation, analytics, feature flags, or similar operational needs.
 - **For legal reasons:** We may disclose information if required by law or in response to valid legal requests from public authorities.
 - **To protect rights and safety:** We may disclose information when We believe it is necessary to protect the Company, users, the public, or the Service.
@@ -206,7 +229,7 @@ We take reasonable steps to handle information in accordance with this Privacy P
 
 Depending on where You live, You may have rights to request access to, correction of, deletion of, or information about Personal Data We process about You.
 
-Because much of Prof Blob's Screen Time, gate, focus, widget, and progress data is stored locally on Your Device or with Apple services, We may not have access to it. You can manage local data through the Application and Device controls.
+Because much of Prof Blob's Screen Time, gate, focus, companion, habitat, growth, widget, and progress data is stored locally on Your Device or with Apple services, We may not have access to it. You can manage local data through the Application and Device controls.
 
 To exercise rights for information You have provided directly to Us or information processed by Our Service Providers on Our behalf, contact Us at the email address below.
 
